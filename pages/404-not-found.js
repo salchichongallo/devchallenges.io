@@ -20,7 +20,15 @@ function NotFound404() {
         </div>
       </main>
 
-      <footer>Jimmy Murillo @ DevChallenges.io</footer>
+      <footer>
+        <a
+          href="https://devchallenges.io/profile/PPGDlVc9JMi4fOFL2ubF"
+          target="_blank"
+          rel="noopener"
+        >
+          Jimmy Murillo @ DevChallenges.io
+        </a>
+      </footer>
 
       <style jsx global>{`
         @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@600&family=Space+Mono:wght@400;700&display=swap");
@@ -123,6 +131,16 @@ function NotFound404() {
           line-height: 17px;
           padding-bottom: 40px;
           text-align: center;
+        }
+
+        footer a {
+          text-decoration: none;
+          color: #333;
+        }
+
+        footer a:hover,
+        footer a:focus {
+          text-decoration: underline;
         }
 
         @media (min-width: 500px) {
