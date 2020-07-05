@@ -1,6 +1,14 @@
+import Head from "next/head";
+
 function NotFound404() {
   return (
     <div className="container">
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@600&family=Space+Mono:wght@400;700&display=swap"
+        />
+      </Head>
       <main>
         <div className="header">404 Not Found</div>
 
@@ -31,8 +39,6 @@ function NotFound404() {
       </footer>
 
       <style jsx global>{`
-        @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@600&family=Space+Mono:wght@400;700&display=swap");
-
         html,
         body {
           padding: 0;
