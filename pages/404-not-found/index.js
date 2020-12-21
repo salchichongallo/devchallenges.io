@@ -1,3 +1,4 @@
+import React from "react";
 import Head from "next/head";
 import styled, { createGlobalStyle } from "styled-components";
 import DevProfileLink from "../../components/DevProfileLink";

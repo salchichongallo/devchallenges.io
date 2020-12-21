@@ -1,3 +1,5 @@
+import React from "react";
+
 function VisuallyHidden(props) {
   return (
     <span

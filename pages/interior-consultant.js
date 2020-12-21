@@ -1,3 +1,4 @@
+import React from "react";
 import Head from "next/head";
 import FocusLock from "react-focus-lock";
 import { RemoveScroll } from "react-remove-scroll";
